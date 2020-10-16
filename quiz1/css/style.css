@@ -1,0 +1,134 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none; 
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
+}
+
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+
+header h1 {
+	float: left;
+	padding: 15px 0px;
+	color: #1E90FF;
+}
+
+header ul {
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+header ul li a {
+	padding: 25px 20px;
+	display: inline-block;
+}
+
+header ul li a:hover {
+	background-color: #1E90FF;
+	color: #fff;
+}
+
+.active {
+	background-color: #1E90FF;
+	color: #fff;
+}
+
+.banner {
+	height: 60vh;
+	background-image: url('../img/banner.jpg');
+	background-size: contain; 
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+/* .banner p {
+	text-align: start;
+	margin-right: 13%;
+	height: 100%;
+} */
+
+#clock{
+	color: #fff;
+	font-size: 60px;
+	justify-content: center;
+}
+
+
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+
+section {
+	padding: 50px 0;
+}
+
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: #1E90FF;
+
+}
+
+.profile p {
+	word-spacing: 2px;
+	line-height: 25px;
+	text-align: left;
+	padding: 30px 20px;
+	float: left;
+}
+
+.food p {
+	word-spacing: 2px;
+	line-height: 25px;
+	text-align: left;
+	padding: 30px 20px;
+	float: right;
+}
+
+.tourist p {
+	word-spacing: 2px;
+	line-height: 25px;
+	text-align: left;
+	padding: 30px 20px;
+	float: right;
+}
+}
+
+.hometown {
+	background-color: #f9f9f9;
+}
+
+.tourist {
+	padding-bottom: 100px;
+}
+
+footer {
+	padding: 50px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
